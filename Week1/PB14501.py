@@ -36,7 +36,6 @@ for _ in range(N):
 
     cons_table.append((T, P))
 
-max_cost = 0
 result = 0
 
 for i in range(N):
