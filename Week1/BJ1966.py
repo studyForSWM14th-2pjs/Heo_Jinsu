@@ -1,4 +1,4 @@
-# T: The number of test case
+# T: The number of test cases
 T: int = int(input())
 # N: The number of documents / M: Finding the document's order
 for _ in range(T):
