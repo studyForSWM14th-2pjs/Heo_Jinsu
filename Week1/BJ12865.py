@@ -30,15 +30,4 @@ for _ in range(N):
 
 max_value = 0
 
-for idx in range(N):
-    weight = 0
-    value = 0
-
-    # print(f'\nCurrent Index: {idx}')
-    
-    # print(j, weight, value)
-
-    if value > max_value:
-        max_value = value
-
 print(max_value)
