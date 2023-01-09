@@ -1,4 +1,10 @@
-weight: 6   4   3   5
-value:  13  8   6   12
+Num:    6
+bound:  7
+weight: 6   4   3   5   1   2
+value:  8   8   6   7   6   1
 
+7   ...
+18  ...
 
+7   
+18
