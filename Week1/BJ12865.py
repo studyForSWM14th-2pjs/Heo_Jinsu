@@ -5,29 +5,37 @@ def find_value(weight, value, idx):
     # print(f'\nCurrent Weight: {weight}')
     # print(f'Current Value: {value}')
     # print(f'Current Index: {idx}')
-
+    
     if weight <= K and value > max_value:
         # print('Max Value Changed!')
         max_value = value
 
-    if weight > K or idx >= N:
-        return 0
-    else:
+    if checking(weight, idx):
         find_value(weight + weights[idx], value + values[idx], idx + 1)
         find_value(weight, value, idx + 1)
+
+def checking(weight, idx):
+    global N, K, weights
+    
+    if idx >= N:
+        return False
+        
+    for i in range(N):
+        if i != idx-1 and  weights[i] <= K - weight:
+            return True
+    
+    return False
 
 # N: The number of items / K: Maximnum weight
 N, K = map(int,input().split())
 
-weights = list()
-values = list()
-# W: Weight of the item / V: Value of the item
-for _ in range(N):
+dp = [0]*(K+1)
+
+for idx in range(1, N+1):
     W, V = map(int,input().split())
+    for i in range(K, W-1, -1):
+        dp[i] = max(dp[i], dp[i-1], dp[i-W] + V)
 
-    weights.append(W)
-    values.append(V)
+    # print(f'--- DP\n{dp}\n')
 
-max_value = 0
-
-print(max_value)
+print(dp[K])

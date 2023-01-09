@@ -5,7 +5,7 @@
 1. [피보나치 함수[1003]](https://www.acmicpc.net/problem/1003) -> 해결
 2. [프린터 큐[1966]](https://www.acmicpc.net/problem/1966) -> 해결
 3. [ATM[11399]](https://www.acmicpc.net/problem/11399) -> 해결
-4. [평범한 배낭[12865]](https://www.acmicpc.net/problem/12865) -> 진행 중
+4. [평범한 배낭[12865]](https://www.acmicpc.net/problem/12865) -> 해결
 5. [퇴사[14501]](https://www.acmicpc.net/problem/14501) -> 해결
 6. 2606(추가문제)
 7. 1182(추가문제)
