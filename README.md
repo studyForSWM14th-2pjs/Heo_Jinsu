@@ -13,4 +13,4 @@
 
 #### [프로그래머스](https://programmers.co.kr/?utm_source=google&utm_medium=cpc&utm_campaign=brand_prgms_pc&gclid=CjwKCAiAqt-dBhBcEiwATw-ggEWyvh_tsGpON5borRxEqI3Azq_ULb1QHbG54tubhlY72nqUvpHv4RoCRxEQAvD_BwE)
 1. [ ] [게임 맵 최단거리[1844]](https://school.programmers.co.kr/learn/courses/30/lessons/1844) -> 진행 중
-2. [ ] [타겟 넘버[43165]](https://school.programmers.co.kr/learn/courses/30/lessons/43165) -> 진행 중
+2. [x] [타겟 넘버[43165]](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
