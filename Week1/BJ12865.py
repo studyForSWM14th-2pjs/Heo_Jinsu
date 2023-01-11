@@ -4,7 +4,7 @@ def find_value(weight, value, idx):
     # print(f'\nCurrent Weight: {weight}')
     # print(f'Current Value: {value}')
     # print(f'Current Index: {idx}')
-    
+
     if weight <= K and value > max_value:
         # print('Max Value Changed!')
         max_value = value
@@ -26,21 +26,22 @@ def checking(weight, idx):
     return False
 
 # Branch and Bound
+'''
 # N: The number of items / K: Maximnum weight
-# N, K = map(int,input().split())
+N, K = map(int,input().split())
 
-# weights = list()
-# values = list()
+weights = list()
+values = list()
 
-# for _ in range(N):
-#     W, V = map(int,input().split())
-#     weights.append(W)
-#     values.append(V)
+for _ in range(N):
+    W, V = map(int,input().split())
+    weights.append(W)
+    values.append(V)
 
-# max_value = 0
-# find_value(0, 0, 0)
-# print(max_value)
-
+max_value = 0
+find_value(0, 0, 0)
+print(max_value)
+'''
 # Dynamic Programming
 # N: The number of items / K: Maximnum weight
 N, K = map(int,input().split())
