@@ -18,7 +18,7 @@
 ### Week 2. Problems
 #### [백준](https://www.acmicpc.net/)
 1. [x] [양[3184 or 3187]](https://www.acmicpc.net/problem/3184)
-2. [ ] [스타트링크[5014]](https://www.acmicpc.net/problem/5014)
+2. [x] [스타트링크[5014]](https://www.acmicpc.net/problem/5014)
 3. [ ] [피보나치 [9009]](https://www.acmicpc.net/problem/9009)
 4. [ ] [1로 만들기 2[12852]](https://www.acmicpc.net/problem/12852)
 5. [ ] [뒤풀이[14575]](https://www.acmicpc.net/problem/14575)

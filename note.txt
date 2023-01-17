@@ -1,25 +1,36 @@
-1 = (row-1, col)
-2 = (row, col+1)
-3 = (row+1, col)
-4 = (row, col-1)
+S + Ux - Dy = G
+(S + Ux - G) / D = y
+1 <= S + Ux - Dy <= F
+1 <= G <= F
 
-- Test Case 1. (Answer = 11)
-1   0   1   1   1
-1   0   1   0   1
-1   0   1   1   1
-1   1   1   0   1
-0   0   0   0   1
 
-- Test Case 2. (Answer = 9)
-1   1   1   1   1
-1   0   1   0   0
-1   1   1   0   1
-0   0   1   1   1
-1   1   1   0   1
+-- Case 1.
+F   S   G   U   D
+158 9   70  9   16
 
-- Test Case 3. (Answer = 11)
-1   0   1   1   1
-1   0   1   0   1
-1   0   1   0   1
-1   0   1   1   1
-1   1   1   0   1
+(-61 + 9x) / 16 = y
+9x - 16y = 61
+
+-- Case 2.
+F   S   G   U   D
+6   1   6   3   2
+
+1
+4
+7
+10
+
+(-5 + 3x) / 2 = y
+3x - 2y = 5
+
+-- Case 3.
+F   S   G   U   D
+20  10  8   2   3
+
+(2 + 2x) / 3 = y
+2x - 3y = -2
+
+-- Case 4.
+F   S   G   U   D
+100 2   1   1   0
+
