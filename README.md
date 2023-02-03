@@ -40,3 +40,16 @@
 8. [ ] [트리의 지름[1967] (추가문제)](https://www.acmicpc.net/problem/1967)
 9. [ ] [탈출[3055] (추가문제)](https://www.acmicpc.net/problem/3055)
 10. [ ] [게리맨더링[17471] (추가문제)](https://www.acmicpc.net/problem/17471)
+
+### Week 4. Problems
+#### [백준](https://www.acmicpc.net/)
+1. [ ] [세 수의 합[2295]](https://www.acmicpc.net/problem/2295)
+2. [ ] [최소 스패닝 트리[1197]](https://www.acmicpc.net/problem/1197)
+3. [ ] [[1240]](https://www.acmicpc.net/problem/1240)
+4. [ ] [[15652]](https://www.acmicpc.net/problem/15652)
+5. [ ] [[1448]](https://www.acmicpc.net/problem/1448)
+6. [ ] [[1912]](https://www.acmicpc.net/problem/1912)
+7. [ ] [[7662]](https://www.acmicpc.net/problem/7662)
+8. [ ] [[1967] (추가문제)](https://www.acmicpc.net/problem/1967)
+9. [ ] [[1932] (추가문제)](https://www.acmicpc.net/problem/1932)
+10. [ ] [[16236] (추가문제)](https://www.acmicpc.net/problem/16236)
